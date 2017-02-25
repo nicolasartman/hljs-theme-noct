@@ -1,9 +1,5 @@
-/* Tomorrow Night Theme */
-/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
-/* Original theme - https://github.com/chriskempson/tomorrow-theme */
-/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* NOCT theme by Nicolas Artman */
 
-/* Tomorrow Comment */
 .hljs-comment,
 .hljs-quote {
   color: #82C87B;
@@ -15,16 +11,26 @@
 .hljs-name,
 .hljs-selector-id,
 .hljs-selector-class,
-.hljs-regexp,
 .hljs-deletion {
   color: #AED2E4;
 }
 
-/* Tomorrow Orange */
-.hljs-number,
+/* so the < and > aren't colored */
+.hljs-tag {
+  color: #D7D7D7;
+}
+
+.hljs-literal {
+  color: #AC9A8D;
+}
+
+.hljs-attr,
 .hljs-built_in,
-.hljs-builtin-name,
-.hljs-literal,
+.hljs-builtin-name {
+  color: #dcafdd;
+}
+
+.hljs-number,
 .hljs-type,
 .hljs-params,
 .hljs-meta,
@@ -32,12 +38,11 @@
   color: #de935f;
 }
 
-/* Tomorrow Yellow */
 .hljs-attribute {
   color: #f0c674;
 }
 
-/* Tomorrow Green */
+.hljs-regexp,
 .hljs-string,
 .hljs-symbol,
 .hljs-bullet,
@@ -64,6 +69,7 @@
   background: #0A0A0A;
   color: #D7D7D7;
   padding: 0.5em;
+  font-family: Menlo
 }
 
 .hljs-emphasis {
