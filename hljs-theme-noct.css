@@ -6,8 +6,9 @@
 }
 
 .hljs-variable,
+.hljs-params,
+.hljs-link,
 .hljs-template-variable,
-.hljs-tag,
 .hljs-name,
 .hljs-selector-id,
 .hljs-selector-class,
@@ -16,7 +17,8 @@
 }
 
 /* so the < and > aren't colored */
-.hljs-tag {
+.hljs-tag,
+.hljs-number {
   color: #D7D7D7;
 }
 
@@ -24,19 +26,18 @@
   color: #AC9A8D;
 }
 
+.hljs-tag:second-child,
 .hljs-attr,
+.hljs-meta,
 .hljs-built_in,
 .hljs-builtin-name {
   color: #dcafdd;
 }
 
-.hljs-number,
-.hljs-type,
-.hljs-params,
-.hljs-meta,
-.hljs-link {
-  color: #de935f;
+.hljs-type {
+  color: #ED9895;
 }
+
 
 .hljs-attribute {
   color: #f0c674;
@@ -66,7 +67,7 @@
 .hljs {
   display: block;
   overflow-x: auto;
-  background: #0A0A0A;
+  background: #222;
   color: #D7D7D7;
   padding: 0.5em;
   font-family: Menlo
